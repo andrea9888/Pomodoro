@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+.tabs{
+    display: flex;
+    margin-top:5vw;
+    margin-left:20vw;
+
+}
+.pomodoro,.short,.long{
+    background-color: rgb(85, 138, 187);
+    color:white;
+    width:20vw;
+    
+}
+button{
+    font-size:2vw;
+    padding: 1vw 2vw;
+    font-weight: 600;
+}
+.time{
+    height: 30vh;
+    font-size:10vw;
+    margin-top:10vh;
+
+}
+.timeControl{
+    display: none;
+}
+
+.start, .stop{
+    margin-right:5vw;
+    color:white;
+}
+
+.start{
+    background-color: green;
+}
+.stop{
+    background-color: red;
+}
+.reset{
+    background-color: lightgrey;
+}
